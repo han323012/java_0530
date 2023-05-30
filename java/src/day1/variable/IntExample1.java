@@ -15,7 +15,8 @@ public class IntExample1 {
 		System.out.println(num5);
 		
 		//1234567890123은 int로 표연 불가능한 큰 숫자
-		long num6 = 1234567890123l;
+		//long 타입에 큰 숫자를 저장할 경우 리터럴에 L l 꼭 사용
+		long num6 = 1234567890123L;
 		System.out.println(num6);
 		
 				
