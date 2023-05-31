@@ -16,9 +16,13 @@ public class CharExample1 {
 		// 컨트롤 z 되돌리기 , 알트 방향키
 		// \ 만으로는 무엇이 안됨
 		char ch5 ='\u0041', ch6 = 65;
+		char ch7 = '\n';
+		System.out.println(ch7 + ch5);
 		
 		System.out.println(ch6);
 		
+		
+			
 	}
 
 }
