@@ -5,12 +5,17 @@ import java.util.Scanner;
 public class Ex1 {
 
 	public static void main(String[] args) {
+		
+		int num1, num2;
+		char op;
 				
 				Scanner sc = new Scanner(System.in);
 				
-				System.out.println("ë‘ ì •ìˆ˜ì™€ ì‚°ìˆ ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
-				String str1 = sc.nextLine();
-				System.out.println(str1);
+				System.out.println("µÎ Á¤¼ö¿Í »ê¼ú¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä (¿¹ :1 + 2) ");
+				num1 = sc.nextInt();
+				op = sc.next().charAt(0);
+				num2 = sc.nextInt();
+				System.out.println("" + num1 + " " + op + " " + num2);
 				
 				sc.close();
 	}
