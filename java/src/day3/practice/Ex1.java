@@ -9,8 +9,6 @@ public class Ex1 {
 		int score = sc.nextInt();
 		boolean rsult = score >= 60;
 		System.out.println("Do you pass " + score + " points? " + rsult);
-		boolean disRsult = score <= 60;
-		System.out.println("Do you pass " + score + " points? " + disRsult);
 		
 		
 		sc.close();
