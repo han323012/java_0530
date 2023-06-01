@@ -11,7 +11,7 @@ public class Ex1 {
 				
 				Scanner sc = new Scanner(System.in);
 				
-				System.out.println("µÎ Á¤¼ö¿Í »ê¼ú¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä (¿¹ :1 + 2) ");
+				System.out.println("ë‘ ì •ìˆ˜ì™€ ì‚°ìˆ ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš” (ì˜ˆ :1 + 2) ");
 				num1 = sc.nextInt();
 				op = sc.next().charAt(0);
 				num2 = sc.nextInt();
