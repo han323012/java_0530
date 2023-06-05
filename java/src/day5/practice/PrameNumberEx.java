@@ -18,8 +18,13 @@ public class PrameNumberEx {
 			}
 			num2++;
 		}
+		if (count == 2) {
 			System.out.println(num1 + " 소수입니다");
-				System.out.println(num1 + " 소수가 아닙니다");
+		}
+		else {
+			System.out.println(num1 + " 소수가 아닙니다");
+		
+		}
 				sc.close();
 		}
 	}
