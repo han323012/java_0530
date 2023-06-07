@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UpdownEx {
 
 	public static void main(String[] args) {
-		int min = -100 , max =1000;
+		int min = 1 , max =100;
 		int num = min -1;
 		char menu = 'y';
 		Scanner sc = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class UpdownEx {
 			int random = (int)(Math.random() * (max - min + 1) + min);
 			
 			for ( num= min-1 ;random != num;) {
-				System.out.println("input(-100~1000) : "  );
+				System.out.println("input(1~100) : "  );
 				num = sc.nextInt();
 		
 			
