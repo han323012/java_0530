@@ -29,6 +29,7 @@ public class PrintMenuEx {
 			else
 				System.out.println("잘못된 번호입니다.");
 		}
+		sc.close();
 		/* swith(a) {
 		 * case:1
 		 * System.out.println("Program Start");
