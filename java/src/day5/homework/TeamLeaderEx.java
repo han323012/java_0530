@@ -10,9 +10,11 @@ public class TeamLeaderEx {
 		 * switch 문으로
 		 */
 		int num; 
+		System.out.println("학생 번호를 입력하세요. : ");
 		
 		Scanner sc = new Scanner(System.in); 
 		num = sc.nextInt();
+		
 		switch (num % 3) {
 		case 1 , 2 :
 			System.out.println("조원입니다.");
@@ -20,8 +22,11 @@ public class TeamLeaderEx {
 		case 0 :
 			System.out.println("조장입니다.");
 			break;
+		default:
+			System.out.println("학생이 아닙니다.");	
 			
 		}
+		sc.close();
 	}
 
 }
