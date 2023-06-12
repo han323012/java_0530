@@ -23,6 +23,6 @@ public class CarMain {
 		myCar.printInfo();
 	}
 
-}
+}//오늘 숙제 없나?
 
 

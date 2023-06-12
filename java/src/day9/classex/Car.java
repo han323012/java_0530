@@ -28,6 +28,7 @@ public class Car {
 	public void printInfo() {
 		
 		System.out.println("자동차 조회");
+		System.out.println("차량이름 : " + name);
 		System.out.println("제조사  : " + company);
 		System.out.println("연식   : " + year);
 		System.out.println("전원   : " + (power? "on" : "off"));
