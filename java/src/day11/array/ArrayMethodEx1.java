@@ -85,6 +85,8 @@ public class ArrayMethodEx1 {
 	}
 	
 	public static void test1(int arr[]) {
+		//기존 배열을 버리고 새로운 배열을 만듬
+		//main에서 연결되었던 배열과 연결이 끊김
 		arr = new int[4];
 		arr[0] = 3;
 		
