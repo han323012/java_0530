@@ -114,6 +114,7 @@ public class ArrayRandomEx2 {
 		if(max - min +1 <randomNum.length) {
 			return;
 		}
+		
 		int count =0;
 		while(count <3) {
 			int random = (int)(Math.random() * (max - min + 1) + min);
