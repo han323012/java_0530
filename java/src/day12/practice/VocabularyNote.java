@@ -26,17 +26,11 @@ public class VocabularyNote {
 	// 메서드
 
 		/**
-
 		 * 단어들을 출력하는 메서드
-
 		 * 매개변수 :
-
 		 * 리턴타입 :
-
 		 * 메서드명 : 
-
 		 * @param word
-
 		 */
 
 		public void print() {
@@ -54,7 +48,6 @@ public class VocabularyNote {
 		}
 
 		/**
-
 		 * 단어가 주어지면 단어장에 추가하는 메서드(단어 객체를 넘겨주는 경우)
 		 * 매개변수 : 단어(단어 객체) => Word word
 		 * 리턴타입 : 없음 -> void
