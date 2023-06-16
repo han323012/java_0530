@@ -1,5 +1,8 @@
 package day12.practice;
 
+import lombok.Data;
+
+@Data //getter setter soString equals를 추가
 public class Word {
 	/*
 	 * 한 단어를 관리하는 클래스
@@ -93,5 +96,32 @@ public class Word {
 				meaningCount--;
 
 			}
-
+		/**
+		 * 수정할 뜻의 번호와 수정할 뜻이 주어지면 뜻을 수정하는 메서드
+		 * 매개변수 수정할 뜻의 번지, 수정할 뜻 int meaningIndex, String meaning
+		 * 리턴타입 boolean
+		 * 메서드명 updateMeaning
+		 * @param meaningIndex
+		 * @param meaning2
+		 * @return
+		 */
+		public boolean updateMeaning(int meaningNum, String meaning) {
+			//수정된 뜻의 번지가 잘못된 경우
+			if(meaningNum > meaningCount || meaningNum <= 0) {
+				return false;
+			}
+			//meaningNum은 1부터 번지는 0부터이기 때문에 빼기1을 한다
+			this.meaning[meaningNum-1] = meaning;
+			return false;
 		}
+		//getter
+		public String getTitle() {
+			return title;
+		}
+		//setter
+		public void setTitle(String title) {
+			this.title = title;
+		}
+		
+
+}
