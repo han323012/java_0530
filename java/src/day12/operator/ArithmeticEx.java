@@ -1,4 +1,4 @@
-package operator;
+package day12.operator;
 
 public class ArithmeticEx {
 
