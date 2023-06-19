@@ -29,6 +29,7 @@ public class ClassInheritanceEx {
 			SmartPhone c1 = (SmartPhone) p1;
 			c1.call("국제번호");
 		}
+		
 		//다운캐스팅 되는경우
 		//업캐스팅이 된 객체 p2
 		Phone p2 = new SmartPhone(); //업캐스팅
@@ -39,6 +40,7 @@ public class ClassInheritanceEx {
 }
 @Data
 class Phone{
+	
 	private String num= "010-1111-5555"; //전화번호
 	
 	//전화 걸기
@@ -46,11 +48,13 @@ class Phone{
 		System.out.println(num);//내가 전화를 거는 상대방 번호
 		System.out.println("calling...");
 	}
+	
 	//전화 받기
 	public void answer(String num) {
 		System.out.println(num);//나한테 전화를 건 상대방 번호
 		System.out.println("Answering...");
 	}
+	
 	public Phone(String num) {
 		this.num = num;
 	}
@@ -58,10 +62,12 @@ class Phone{
 }
 
 class SmartPhone extends Phone{
+	
 	Camera camera = new Camera();
 	public void take() {
 		camera.take();
 	}
+	
 	public SmartPhone() {
 		//부모 클래스의 생성자가 호출
 		//super를 이용하여 부모 클래스의 생성자를 직접호출하지 않으면
@@ -70,6 +76,7 @@ class SmartPhone extends Phone{
 		//super(); 에러 발생
 		super("");
 	}
+	
 	@Override
 	public void call(String num) {
 		super.call(num);
