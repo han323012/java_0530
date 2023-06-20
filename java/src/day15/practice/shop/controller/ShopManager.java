@@ -98,8 +98,9 @@ public class ShopManager {
 
 	private void store() {
 		//입고할 제품명 입력
-		System.out.println("제품명 : ");
+		System.out.print("제품명 : ");
 		String name = sc.nextLine();
+		sc.nextLine();
 		//입고할 제품 수량
 		System.out.println("수량 : ");
 		int amount = sc.nextInt();
