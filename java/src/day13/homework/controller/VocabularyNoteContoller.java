@@ -49,12 +49,6 @@ public class VocabularyNoteContoller {
 		//메뉴가 1이면 단어 추가 기능을 실행
 		case 1:
 			insertWord();
-			//추가할 단어를 입력
-			
-			//추가할 뜻을 입력
-			
-			//단어장에 추가
-			
 			break;
 		//메뉴가 2이면 단어 삭제 기능을 실행
 		case 2:
